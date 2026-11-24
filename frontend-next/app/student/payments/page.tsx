@@ -1,0 +1,8 @@
+import type { Metadata } from 'next';
+import { PaymentsClient } from './client';
+
+export const metadata: Metadata = { title: 'Payments' };
+
+export default function Page() {
+  return <PaymentsClient />;
+}
